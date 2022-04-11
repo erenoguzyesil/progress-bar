@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: #e8ebf7;
+  color: #000;
+  font-size: 16px;
+}
+
+.centered {
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+  padding: 75px 25px 0 25px;
+}
+
+.space {
+  height: 15px;
+  display: block;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 500px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 2px solid #31313a;
+  box-shadow: 0px 5px 0px 0px rgba(205,205,235,1);
+
+  position: relative;
+  display: flex;
+  align-items: center; 
+  overflow: hidden;
+}
+
+.content {
+  width: 0px;
+  height: 35px;
+  background-color: #31313a;
+  border-radius: 100px;
+}
+
+.settings {
+  background-color: #d8dae4;
+  margin: 25px 0 0 0;
+  padding: 15px;
+  border-radius: 3px;
+  border: 2px solid #31313a;
+  box-shadow: 0px 5px 0px 0px rgba(205,205,235,1);
+}
+
+.settings p {
+  margin: 0;
+  padding: 5px 0;
+  display: inline-block;
+}
+
+.settings input {
+  width: 75px;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 2px solid #31313a;
+  font-size: 16px;
+  padding: 0 0 0 3.5px;
+}
+
+.settings input:focus {
+  outline: 2px solid #999999;
+}
+
+.end-text {
+  position: absolute;
+  bottom: 15px;
+  opacity: 0.75;
+}
+
+kbd {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.50);
+  font-family: 'Courier New', monospace;
+  line-height: 2.5;
+  border-radius: 3px;
+}
